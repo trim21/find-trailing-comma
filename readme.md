@@ -8,6 +8,8 @@ b = 1, # not ok
 d = (1, ) # ok
 c = {1, 2,
      3, 4}, # not ok
+h = ['element'][0, ] # not ok because it's a tuple in `[]`
+
 
 ```
 
