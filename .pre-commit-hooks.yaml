@@ -1,0 +1,6 @@
+-   id: find-trailing-comma
+    name: Find trailing commas
+    description: Find trailing commas which make single value a tuple
+    entry: find-trailing-comma
+    language: python
+    types: [python]
