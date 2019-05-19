@@ -12,3 +12,12 @@ c = {1, 2,
 ```
 
 I don't mean to make it a tuple, I just add a `,` by accident.
+
+Just add this to your  `.pre-commit-config.yaml`
+
+```yaml
+  - repo: https://github.com/Trim21/find-trailing-comma
+    rev: v0.0.1
+    hooks:
+      - id: find-trailing-comma
+```
