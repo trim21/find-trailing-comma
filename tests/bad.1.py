@@ -6,4 +6,14 @@ e = ("abc")
 f = ("abc", )
 g = (1, ),
 
-h = ['element'][0, ]
+try:
+    h = [[1], [2]][1, ]
+except TypeError:
+    pass
+
+
+class A:
+    b = 3,
+
+
+print(A.b, type(A.b))

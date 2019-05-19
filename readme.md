@@ -9,7 +9,7 @@ d = (1, ) # ok
 c = {1, 2,
      3, 4}, # not ok
 h = ['element'][0, ] # not ok because it's a tuple in `[]`
-
+g = 1, 2, 3, # ok, not a single element
 
 ```
 
@@ -23,3 +23,5 @@ Just add this to your  `.pre-commit-config.yaml`
     hooks:
       - id: find-trailing-comma
 ```
+
+This project is inspired by [add-trailing-comma](https://github.com/asottile/add-trailing-comma)
