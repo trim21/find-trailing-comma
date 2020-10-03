@@ -1,5 +1,7 @@
 # find-trailing-comma
 
+deprecated, checkout https://github.com/Trim21/pre-commit-hooks
+
 find trailing comma like this in python
 
 ```python
@@ -14,14 +16,3 @@ g = 1, 2, 3, # ok, not a single element
 ```
 
 I don't mean to make it a tuple, I just add a `,` by accident.
-
-Just add this to your  `.pre-commit-config.yaml`
-
-```yaml
-  - repo: https://github.com/Trim21/find-trailing-comma
-    rev: v0.0.1
-    hooks:
-      - id: find-trailing-comma
-```
-
-This project is inspired by [add-trailing-comma](https://github.com/asottile/add-trailing-comma)
